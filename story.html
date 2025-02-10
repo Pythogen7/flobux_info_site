@@ -9,14 +9,31 @@
 </head>
 <body>
     <!-- Navigation Bar -->
-    <div class="navbar">
-        <a href="index.html" class="nav-button">Home</a>
-        <a href="faq.html" class="nav-button">FAQ</a>
-        <a href="terms.html" class="nav-button">Terms of Service</a>
-        <a href="privacy.html" class="nav-button">Privacy Policy</a>
-        <a href="donate.html" class="nav-button">Donate</a>
+    <!-- Navigation Bar -->
+    <div class="header">
+        <a href="index.html"><img src="flogreen_full.png" alt="Flobux Logo" class="logo"></a>
+        <button class="menu-button" onclick="toggleMenu()">☰</button>
+        <div class="navbar">
+            
+            <a href="faq.html" class="nav-button">FAQ</a>
+            <a href="terms.html" class="nav-button">Terms of Service</a>
+            <a href="privacy.html" class="nav-button">Privacy Policy</a>
+            <a href="story.html" class="nav-button">About</a>
+            <a href="donate.html" class="nav-button">Donate</a>
+        </div>
+
+        <div class="mobile-navbar" id='mobile-navbar'>
+            <a href="index.html" class="nav-button">HOME</a>
+            <a href="faq.html" class="nav-button">FAQ</a>
+            <a href="terms.html" class="nav-button">Terms of Service</a>
+            <a href="privacy.html" class="nav-button">Privacy Policy</a>
+            <a href="story.html" class="nav-button">About</a>
+            <a href="donate.html" class="nav-button">Donate</a>
+        </div>
+
     </div>
 
+    <div class="center">
     <div class="content">
         <h1 class="info-header">Flobux's Story</h1>
         <p class="info-body">Let me begin by introducing myself. My name is Evan Carr, and I am the creator of Flobux. Flobux is not for profit.</p>
@@ -37,6 +54,7 @@
         <p class="info-body">If you wish to see Flobux expand its capabilities, I encourage you to fund its development. Alternatively, if Flobux has proven beneficial to you, donations made to me personally would be greatly appreciated and serve as an encouragement that Flobux is fulfilling its mission.</p>
         <a href="donate.html" class="button">Contribute or Donate</a>
     </div>
+</div>
 
     <!-- Footer Section -->
     <footer class="footer">

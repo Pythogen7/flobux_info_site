@@ -9,20 +9,38 @@
 </head>
 <body>
 
-        <h1>Donate or Contribute</h1>
 
 
 
-<div class="navbar">
-        <a href="index.html" class="nav-button">Home</a>
-        <a href="faq.html" class="nav-button">FAQ</a>
-        <a href="terms.html" class="nav-button">Terms of Service</a>
-        <a href="privacy.html" class="nav-button">Privacy Policy</a>
-        <a href="story.html" class="nav-button">About</a>
+<!-- Navigation Bar -->
+    <div class="header">
+        <a href="index.html"><img src="flogreen_full.png" alt="Flobux Logo" class="logo"></a>
+        <button class="menu-button" onclick="toggleMenu()">☰</button>
+        <div class="navbar">
+            
+            <a href="faq.html" class="nav-button">FAQ</a>
+            <a href="terms.html" class="nav-button">Terms of Service</a>
+            <a href="privacy.html" class="nav-button">Privacy Policy</a>
+            <a href="story.html" class="nav-button">About</a>
+            <a href="donate.html" class="nav-button">Donate</a>
+        </div>
+
+        <div class="mobile-navbar" id='mobile-navbar'>
+            <a href="index.html" class="nav-button">HOME</a>
+            <a href="faq.html" class="nav-button">FAQ</a>
+            <a href="terms.html" class="nav-button">Terms of Service</a>
+            <a href="privacy.html" class="nav-button">Privacy Policy</a>
+            <a href="story.html" class="nav-button">About</a>
+            <a href="donate.html" class="nav-button">Donate</a>
+        </div>
 
     </div>
 
-    <main class="donate-container">
+    <div class="center">
+        <h1>Donate or Contribute</h1>
+        
+
+    <div class="donate-container">
         <section class="contribute">
             <h2>Contribute</h2>
             <p class='contribute-info'>Contributing towards the development of Flobux can be done within the app.</p>
@@ -53,8 +71,9 @@
                 </a>
             </div>
         </section>
-    </main>
+    </div>
 
+</div>
     <footer class="footer">
         <p class="contact-info">
             Have questions? Check out our <a href="faq.html" class="footer-link">FAQ</a> or contact our support through <span>flobuxapp@gmail.com</span>.

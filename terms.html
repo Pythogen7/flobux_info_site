@@ -9,13 +9,31 @@
 </head>
 <body>
     <!-- Navigation Bar -->
-    <div class="navbar">
-        <a href="index.html" class="nav-button">Home</a>
-        <a href="faq.html" class="nav-button">FAQ</a>
-        <a href="privacy.html" class="nav-button">Privacy Policy</a>
-        <a href="story.html" class="nav-button">About</a>
-        <a href="donate.html" class="nav-button">Donate</a>
+    <!-- Navigation Bar -->
+    <div class="header">
+        <a href="index.html"><img src="flogreen_full.png" alt="Flobux Logo" class="logo"></a>
+        <button class="menu-button" onclick="toggleMenu()">☰</button>
+        <div class="navbar">
+            
+            <a href="faq.html" class="nav-button">FAQ</a>
+            <a href="terms.html" class="nav-button">Terms of Service</a>
+            <a href="privacy.html" class="nav-button">Privacy Policy</a>
+            <a href="story.html" class="nav-button">About</a>
+            <a href="donate.html" class="nav-button">Donate</a>
+        </div>
+
+        <div class="mobile-navbar" id='mobile-navbar'>
+            <a href="index.html" class="nav-button">HOME</a>
+            <a href="faq.html" class="nav-button">FAQ</a>
+            <a href="terms.html" class="nav-button">Terms of Service</a>
+            <a href="privacy.html" class="nav-button">Privacy Policy</a>
+            <a href="story.html" class="nav-button">About</a>
+            <a href="donate.html" class="nav-button">Donate</a>
+        </div>
+
     </div>
+
+    <div class="center">
 
     <div class="content">
         <h1 class="info-header">Terms of Service</h1>
@@ -56,6 +74,7 @@
 
     </div>
 
+</div>
     <!-- Footer Section -->
     <footer class="footer">
         <p class="contact-info">

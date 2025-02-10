@@ -6,19 +6,36 @@
     <title>Flobux - Thrive with Money</title>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="globalscript.js"></script>
 </head>
 <body>
 
     <!-- Navigation Bar -->
-    <div class="navbar">
-        <a href="faq.html" class="nav-button">FAQ</a>
-        <a href="terms.html" class="nav-button">Terms of Service</a>
-        <a href="privacy.html" class="nav-button">Privacy Policy</a>
-        <a href="story.html" class="nav-button">About</a>
-        <a href="donate.html" class="nav-button">Donate</a>
+    <div class="header">
+        <a href="index.html"><img src="flogreen_full.png" alt="Flobux Logo" class="logo"></a>
+        <button class="menu-button" onclick="toggleMenu()">☰</button>
+        <div class="navbar">
+            
+            <a href="faq.html" class="nav-button">FAQ</a>
+            <a href="terms.html" class="nav-button">Terms of Service</a>
+            <a href="privacy.html" class="nav-button">Privacy Policy</a>
+            <a href="story.html" class="nav-button">About</a>
+            <a href="donate.html" class="nav-button">Donate</a>
+        </div>
+
+        <div class="mobile-navbar" id='mobile-navbar'>
+            <a href="index.html" class="nav-button">HOME</a>
+            <a href="faq.html" class="nav-button">FAQ</a>
+            <a href="terms.html" class="nav-button">Terms of Service</a>
+            <a href="privacy.html" class="nav-button">Privacy Policy</a>
+            <a href="story.html" class="nav-button">About</a>
+            <a href="donate.html" class="nav-button">Donate</a>
+        </div>
+
     </div>
 
-    <img src="flogreen_full.png" alt="Flobux Logo" class="logo">
+    <div class="center">
+
     
     <p class="tagline">Thrive with Money, Thrive in Life. Take Control of Money, Take Control of Life.</p>
     
@@ -30,6 +47,11 @@
         <a href="https://play.google.com/store/apps/details?id=com.pythogen.flobux" class="google-play-button" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
         </a>
+        <a href="https://web.flobux.app" class="web-app-button">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Globe_icon.svg" alt="Web App Icon" class="web-app-icon">
+    Web App
+</a>
+
     </div>
 
     <!-- Additional Information -->
@@ -44,6 +66,8 @@
     <p class="nfptext">Not yet a registered 501(c)(3), but committed to bringing financial peace to all by giving you control of your money, not taking it.</p>
 
 <a href="story.html" class="button story-button">Read Flobux's Story</a>
+
+</div>
 
     <!-- Footer Section -->
     <footer class="footer">
