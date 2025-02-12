@@ -6,25 +6,20 @@ html {
 
 /* Body Styles */
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     background-color: white;
     color: #333;
     text-align: center;
-    width: 100vw;
     position: relative; /* To position the navbar */
     
 }
 
 .center {
-    padding-top: 90px;
-    padding-bottom: 90px;
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
 
 .header {
+    height: 90px;
     display: flex;
     justify-content: center; /* Space between logo and navbar */
     align-items: center; /* Vertically align logo and navbar */
@@ -184,9 +179,8 @@ body {
 /* Footer */
 .footer {
     background-color: #f8f9fa;
-    padding: 20px;
     position: fixed;
-    
+    height: 80px;
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -210,7 +204,7 @@ body {
 /* Contact Info */
 .contact-info {
     font-size: 16px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-right: 20px;
 }
 
@@ -266,6 +260,17 @@ a:hover {
             padding: 20px;
             text-align: left;
     margin-bottom: 120px;
+        }
+
+.center_aligned_content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
         }
 
 .date-updated {
