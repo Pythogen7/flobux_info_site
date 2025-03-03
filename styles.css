@@ -64,6 +64,14 @@ p {
 }
 
 
+
+.pheader {
+    font-size: 1.4rem;
+    color: #333333;
+    font-weight: bold;
+}
+
+
 .header {
     height: 90px;
     display: flex;
@@ -98,7 +106,7 @@ p {
 
 .menu-button { display: none; font-size: 24px; cursor: pointer; background: none; border: none; }
 
-.mobile-navbar { display: none; flex-direction: column; position: absolute; top: 50px; left: 0; right: 0; background: white; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+.mobile-navbar { display: none; flex-direction: column; position: absolute; top: 100px; left: 0; right: 0; background: white; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
 
 .mobile-navbar a { padding: 10px; border-bottom: 1px solid #ddd; }
 
@@ -116,7 +124,8 @@ p {
     font-size: 18px;
     text-decoration: none;
     padding: 10px 15px;
-    font-weight: bold;
+    font-weight: bolder;
+    font-family: 'Comfortaa', sans-serif;
     color: #333;
     transition: color 0.3s;
 }
@@ -391,6 +400,7 @@ margin-top: 20px;
 }
 
 .footer_logo {
+    margin-right: 0px !important;
     padding: 20px;
 }
 
