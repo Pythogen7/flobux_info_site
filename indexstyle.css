@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'CustomIcons'; /* Choose any name */
+    src: url('assets/custom_icons.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.phone {
+    width: 300px;
+    display: block;
+}
+
+.phone-container {
+    position: relative;
+    display: inline-block;
+    transform: translateY(29px);
+}
+
+.download-buttons {
+    position: absolute;
+    top: 50%; /* Adjust to position correctly */
+    left: 50%;
+    transform: translate(-50%, -13%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px; /* Space between buttons */
+}
+
+.download-buttons a {
+    display: block;
+    width: 179px; /* Adjust button width */
+}
+
+.download-buttons img {
+    width: 100%;
+    height: auto;
+}
+
+.web-app-button {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    width: 175px !important;
+    border-radius: 7px;
+    height: 52px;
+    gap: 10px;
+    border: 1.5px solid grey;
+}
+
+.web-app-button-center {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 7px;
+    margin-left: 10px;
+    
+}
+
+.web-app-text {
+    
+    text-align: left;
+}
+
+.web-app-top-text {
+    color: white;
+
+    margin: 0px;
+    font-size: 11px;
+    
+}
+
+.web-app-bottom-text {
+    color: white;
+    margin: 0px;
+    font-size: 23px;
+}
+
+.web-app-button i {
+    font-size: 30px; /* Adjust icon size */
+    color: white;
+    margin-right: 11px;
+}
+
+.rbIcon {
+    padding: 16px;
+    font-size: 9rem;
+}
+
+.bIcon {
+    font-size: 8rem !important;
+}
+
+
+       
+        .pricing-table {
+            width: 100%;
+            padding: 30px;
+        }
+
+
+        .pricing-table th, .pricing-table td {
+            padding: 10px;
+            font-size: 24px;
+        }
+
+
+
+        
+        .right-col {
+            text-align: right;
+        }
+        .free {
+            color: #00dc77;
+            font-weight: bold;
+        }
+        .small-fee {
+            color: #123f38;
+            font-weight: bold;
+        }
+
+        /* Trademark Info */
+
+
+
+
+.money-icon::before {
+    height: 128px;
+    font-style: normal;
+    font-family: 'CustomIcons', sans-serif; 
+    content: "\e800"
+}
+
+.tedious {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.tedious p {
+    margin-top: auto;
+}

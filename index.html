@@ -1,82 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flobux - Thrive with Money</title>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <script src="globalscript.js"></script>
-</head>
-<body>
-
-    <!-- Navigation Bar -->
-    <div class="header">
-        <a href="index.html"><img src="flogreen_full.png" alt="Flobux Logo" class="logo"></a>
-        <button class="menu-button" onclick="toggleMenu()">☰</button>
-        <div class="navbar">
-            
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Flobux - Thrive with Money</title>
+      <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="indexstyle.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <script src="globalscript.js"></script>
+   </head>
+   <body>
+    <div class="body-wrapper">
+      <!-- Navigation Bar -->
+      <div class="header">
+         <a href="index.html"><img src="assets/flogreen_full_256.png" alt="Flobux Logo" class="logo"></a>
+         <button class="menu-button" onclick="toggleMenu()">☰</button>
+         <div class="navbar">
             <a href="faq.html" class="nav-button">FAQ</a>
             <a href="terms.html" class="nav-button">Terms of Service</a>
             <a href="privacy.html" class="nav-button">Privacy Policy</a>
             <a href="story.html" class="nav-button">About</a>
             <a href="donate.html" class="nav-button">Donate</a>
-        </div>
-
-        <div class="mobile-navbar" id='mobile-navbar'>
+         </div>
+         <div class="mobile-navbar" id='mobile-navbar'>
             <a href="index.html" class="nav-button">HOME</a>
             <a href="faq.html" class="nav-button">FAQ</a>
             <a href="terms.html" class="nav-button">Terms of Service</a>
             <a href="privacy.html" class="nav-button">Privacy Policy</a>
             <a href="story.html" class="nav-button">About</a>
             <a href="donate.html" class="nav-button">Donate</a>
-        </div>
+         </div>
+      </div>
+      <div class="center-text content">
+         <div class="card padded">
+            <div class="lrcontainer">
+               <div class="left-side left-text">
+                  <h2>Take control of your money</h2>
+                  <p class="bigp">The budgeting app to streamline your finances, not do them for you.</p>
+               </div>
+               <div class="right-side">
+                  <div class="phone-container">
+                     <img src="assets/phone.png" alt="phone" class="phone">
+                     <div class="download-buttons">
+                        <a href="https://apps.apple.com/us/app/flobux/id6448870424?platform=iphone" class="app-store-button hoverbump" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/1200px-Download_on_the_App_Store_Badge.svg.png" alt="Download on the App Store">
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.pythogen.flobux" class="google-play-button hoverbump" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
+                        </a>
+                        <a href="https://web.flobux.app" class="web-app-button hoverbump">
+                           <div class="web-app-button-center">
+                              <i class="fas fa-globe"></i>
+                              <div class="web-app-text">
+                                 <p class="web-app-top-text">Use it on the</p>
+                                 <p class="web-app-bottom-text">Web</p>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <h1>The 2 <b class="golden">Golden</b> Rules of <b class="flobux">Flobux</b></h1>
+         <div class="lrcontainer padded">
+            <div class="left-side">
+               <h4>1. Every Dollar is in an Envelope</h4>
+               <i class="rbIcon fas fa-envelope"></i>
+               <p class="bigp">Flobux uses virtual envelopes to account for <b>all</b> of your money.</p>
+            </div>
+            <div class="right-side center-text">
+               <h4>2. You Log Every Transaction</h4>
+               <i class="rbIcon fas fa-sync"></i>
+               <p class="bigp">Every time you spend or gain money, you log the transaction in Flobux.</p>
+            </div>
+         </div>
+         <h1><b class="flobux">Flobux</b> logs transactions <i>FAST</i></h1>
+         <p class="bigp">To log transactions quickly you...</p>
+         <div class="tricol padded">
+            <div class="tedious">
+               <i class="bIcon material-icons">account_balance</i>
+               <p>Link your Bank Accounts<br/>to find transctions</p>
+            </div>
+            <div class="tedious">
+               <i class="bIcon money-icon"></i>
+               <p>Predefine your Income<br/>into envelopes</p>
+            </div>
+            <div class="tedious">
+               <i class="bIcon material-icons">local_atm</i>
+               <p>Plan recurring bills &<br/> subscriptions to envelopes</p>
+            </div>
+         </div>
+         <!-- Additional Information -->
+         <!-- Not For Profit Section -->
+         <h1>As Free as Possible</h1>
+         <p class="bigp">Giving you control of your money, not taking it.</p>
+         <div class="pricing-container">
+            <div class="lrcontainer">
+               <div class="left-side">
+                  <table class="pricing-table card left-text">
+                     <tr>
+                        <th>Feature</th>
+                        <th class="right-col">Cost</th>
+                     </tr>
+                     <tr>
+                        <td>Using the App</td>
+                        <td class="free right-col">Free</td>
+                     </tr>
+                     <tr>
+                        <td>All Features</td>
+                        <td class="free right-col">Free</td>
+                     </tr>
+                     <tr>
+                        <td>No Ads</td>
+                        <td class="free right-col">Free</td>
+                     </tr>
+                     <tr>
+                        <td>Bank Account Linking</td>
+                        <td class="small-fee right-col">$1/Month Per Link</td>
+                     </tr>
+                  </table>
+               </div>
+               <div class="right-side left-text">
+                  <p class="bigp padded">We believe in making financial management accessible to everyone. Our app is <strong>100% free</strong> – no subscriptions, no premium tiers, no ads. The only cost is for linking external bank accounts, which is a fee we can't avoid from our banking partners.</p>
+               </div>
+            </div>
+            <p>Our goal is not to turn a profit. We aim to cover necessary costs—including server expenses, bank integration fees, and fair salaries for those working to maintain and improve the app. Pricing will always reflect providing the best service to all, not making a profit.</p>
+         </div>
 
-    </div>
+         <h1>Want to learn more?</h1>
+         <div class="quick-links">
+            <a href="story.html" class="chip">Flobux's Story</a>    
+            <a href="faq.html" class="chip">FAQ</a> 
+            <a href="https://www.youtube.com" class="chip">Flobux Overview Video</a> 
+         </div>
+         
 
-    <div class="center"><div class="center_aligned_content">
+         
+      </div>
+      <!-- Footer Section -->
 
-    
-    <p class="tagline">Thrive with Money, Thrive in Life. Take Control of Money, Take Control of Life.</p>
-    
-    <!-- Download Buttons Section -->
-    <div class="download-buttons">
-        <a href="https://apps.apple.com/us/app/flobux/id6448870424?platform=iphone" class="app-store-button" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/1200px-Download_on_the_App_Store_Badge.svg.png" alt="Download on the App Store">
-        </a>
-        <a href="https://play.google.com/store/apps/details?id=com.pythogen.flobux" class="google-play-button" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
-        </a>
-        <a href="https://web.flobux.app" class="web-app-button">
-    
+      </div>
 
-            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Globe_icon.svg" alt="Web App Icon" class="web-app-icon">
-            Web App
-        </a>
+      <footer class="footer">
+        <img src="assets/flogreen_full_256.png" alt="Flobux Logo" class="logo footer_logo">
+        <p class="tagline">Thrive with Money, Thrive in Life. Take Control of Money, Take Control of Life.</p>
+            
+                <p class="padded">Contact Us at <a href="mailto:flobuxvappv@gmavilv.comv" class="clicklink mail_area"><noscript>Please Enable Javscript</noscript>...</a></p>
 
-    </div>
 
-    <!-- Additional Information -->
-    <p class="trademark-info">
-        Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries and regions. App Store is a service mark of Apple Inc.<br>
-        Google Play and the Google Play logo are trademarks of Google LLC.
-    </p>
-    
-    <!-- Not For Profit Section -->
-    <h2 class="not-for-profit">Not For Profit</h2>
-    <p class="nfptext">Not yet a registered 501(c)(3), but committed to bringing financial peace to all by giving you control of your money, not taking it.</p>
+                
 
-<a href="story.html" class="button story-button">Read Flobux's Story</a>
-
-</div></div>
-
-    <!-- Footer Section -->
-    <footer class="footer">
-        <p class="contact-info">
-            Have questions? Check out our <a href="faq.html" class="footer-link">FAQ</a> or contact our support through <span>flobuxapp@gmail.com</span>.
-            <a href="mailto:flobuxapp@gmail.com" class="button email-button">Email us</a>
-        </p>
-    </footer>
-
-</body>
+                <p class="trademark-info">
+            Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries and regions. App Store is a service mark of Apple Inc.<br>
+            Google Play and the Google Play logo are trademarks of Google LLC.
+         </p>
+         
+         
+         
+      </footer>
+   </body>
 </html>

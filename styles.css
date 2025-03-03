@@ -4,19 +4,65 @@ html {
     font-family: 'Work Sans', sans-serif;
 }
 
-/* Body Styles */
+
+
 body {
-    background-color: white;
-    color: #333;
-    text-align: center;
-    position: relative; /* To position the navbar */
-    
+    font-family: 'Work Sans', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
 }
 
-.center {
-    margin-top: 90px;
-    margin-bottom: 90px;
+
+
+h1 {
+    font-size: 3.7rem;
+    color: #222222;
+    margin-top: 80px;
+    margin-bottom: 50px;
 }
+h2 {
+    font-size: 3rem;
+    color: #333333;
+}
+
+
+h2 {
+    font-size: 2.1rem;
+    color: #333333;
+}
+
+h3 {
+    font-size: 1.8rem;
+    color: #333333;
+}
+
+h4 {
+    font-size: 1.4rem;
+    color: #333333;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+.bigp {
+    font-size: 22px;
+}
+
+
+
+.center-text {
+    text-align: center;
+}
+
+
+.left-text {
+    text-align: left !important;
+}
+
 
 .header {
     height: 90px;
@@ -24,8 +70,6 @@ body {
     justify-content: center; /* Space between logo and navbar */
     align-items: center; /* Vertically align logo and navbar */
     padding: 10px 20px; /* Add some padding */
-    width: 100%; /* Ensure it spans full width */
-    position: fixed; /* Keep it at the top */
     top: 0;
     left: 0;
     background: white; /* Adjust as needed */
@@ -44,6 +88,13 @@ body {
     gap: 15px; /* Space between links */
 }
 
+.flobux {
+    color: #00dc77;
+}
+
+.golden {
+    color: #eac500;
+}
 
 .menu-button { display: none; font-size: 24px; cursor: pointer; background: none; border: none; }
 
@@ -54,14 +105,6 @@ body {
 @media (max-width: 600px) {
     .navbar { display: none; }
     .menu-button { display: block; }
-    .download-buttons { 
-        flex-direction: column !important;
-
-    }
-    .web-app-button {
-            margin: auto;
-
-    }
 }
 
 
@@ -84,13 +127,8 @@ body {
 
 
 
-/* Tagline */
-.tagline {
-    font-size: 24px;
-    margin-top: 20px;
-    margin-bottom: 80px;
-    color: #264653;
-}
+
+
 
 /* Not For Profit */
 .not-for-profit {
@@ -111,77 +149,27 @@ body {
     display: inline-block;
     text-decoration: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 48px;
     color: white;
-    background-color: #2a9d8f;
+    background-color: black;
     font-size: 18px;
     margin-top: 20px;
     transition: background-color 0.3s;
 }
 
 .button:hover {
-    background-color: #217a6b;
+    transition: transform 0.3s ease;
+    transform: translateY(-3px);
 }
 
 /* Download Buttons Section */
-.download-buttons {
-    display: flex;
-
-    gap: 20px;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 40px; /* Space between buttons and the next section */
-}
-
-.download-buttons a {
-    text-decoration: none;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.web-app-button {
-    font-size: 26px;
-    font-weight: bold;
-    color: white;
-    background-color: #00dc7a; /* Green background */
-    padding: 3px 20px 3px 10px;
-    border-radius: 40px; /* Rounded corners */
-    transition: background-color 0.3s ease;
-}
-
-.web-app-button:hover {
-    background-color: #00dc77; /* Darker green on hover */
-    color: white;
-
-}
-
-.web-app-icon {
-    filter: invert(1); /* Inverts icon color to white */
-    vertical-align: middle;
-    scale: .8;
-}
 
 
-
-/* Web App Info */
-.web-app-info {
-    font-size: 18px;
-
-}
-
-/* Trademark Info */
-.trademark-info {
-    font-size: 12px;
-    color: #6d6875;
-    margin-bottom: 80px;
-}
 
 /* Footer */
 .footer {
     background-color: #f8f9fa;
-    position: fixed;
-    height: 80px;
-    bottom: 0;
+    margin-bottom: 30px;
     width: 100%;
     text-align: center;
 }
@@ -192,7 +180,7 @@ body {
 }
 
 .footer-link {
-    color: #264653;
+    color: #00dc77;
     text-decoration: none;
     font-weight: bold;
 }
@@ -217,61 +205,20 @@ body {
 }
 
 
-.info-header {
-color: #264653;
-            margin-top: 20px;
-            margin-bottom: 20px;
-}
-
-.info-sub-header {
-color: #264653;
-            margin-top: 20px;
-            margin-bottom: 20px;
-}
-
 
 .info-body {
     line-height: 1.6;
             margin-bottom: 20px;
 }
 
-a {
-    color: #00dc7a; 
-    text-decoration: none;
-}
-
-a:hover {
-    color: #00dc7a; /* Color on hover */
-}
-
-
-.button {
-    display: inline-block;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: white;
-    background-color: #264653;
-}
 
 .content {
-            max-width: 80%;
-            margin: 0 auto;
-            padding: 20px;
-            text-align: left;
-    margin-bottom: 120px;
-        }
+    max-width: 1000px;
+    margin: auto;
+    padding: 0px 15px;
+}
 
-.center_aligned_content {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            max-width: 80%;
-            margin: 0 auto;
-            padding: 20px;
-            text-align: center;
-        }
+
 
 .date-updated {
             font-style: italic;
@@ -281,23 +228,6 @@ a:hover {
         }
 
 /* General Styles */
-body {
-    font-family: 'Work Sans', sans-serif;
-    background-color: #fff;
-    margin: 0;
-    padding: 0;
-}
-
-/* Header */
-header {
-    text-align: center;
-    margin: 20px;
-}
-
-h1 {
-    font-size: 40px;
-    color: #264653;
-}
 
 /* Main Content */
 .donate-container {
@@ -321,15 +251,6 @@ margin-top: 20px;
     margin-bottom: 40px;
 }
 
-h2 {
-    color: #264653;
-    font-size: 20px;
-}
-
-p {
-    font-size: 16px;
-    color: #333;
-}
 
 .download-buttons {
     display: flex;
@@ -377,3 +298,141 @@ p {
     margin-right: 15px;
 }
 
+.tricol {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .lrcontainer {
+        flex-direction: column;
+    }
+    .tricol {
+        grid-template-columns: 1fr;
+    }
+
+    
+}
+
+.padded {
+    padding: 24px;
+}
+
+.padded-vert {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
+
+.card {
+  background-color: #f5f5f5;
+  border-radius: 28px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 16px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+
+
+
+
+.clicklink {
+    display: inline-block; /* Makes it easier to style */
+    
+    color: #00dc7a; 
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make it stand out */
+    transition: color 0.3s ease, transform 0.2s ease;
+    transition: transform 0.3s ease;
+
+}
+
+.clicklink:hover {
+    color: #00a95d; /* Darker shade on hover */
+    transform: scale(1.02); /* Slight grow effect */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+
+.lrcontainer {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* Left Side - Card */
+.left-side {
+    
+    flex: 1;
+    text-align: center;
+}
+
+
+
+/* Right Side */
+.right-side {
+    flex: 1;
+}
+
+.hoverbump:hover {
+    transition: transform 0.3s ease;
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+
+.footer_logo {
+    padding: 20px;
+}
+
+
+.quick-links {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Aligns items vertically */
+    gap: 10px; /* Adds space between chips */
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+
+.chip {
+    background-color: #00dc7a;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 16px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+.chip:hover {
+    background-color: #008f4f;
+}
+
+.trademark-info {
+    font-size: 12px !important;
+    color: #6d6875;
+    margin-bottom: 80px;
+}
+
+.footer {
+    margin-bottom: 0px;
+    margin-top: auto;
+    padding-bottom: 20px;
+}
+
+.content {
+  min-height: 73vh;
+  
+  margin-bottom: 30px;
+}
