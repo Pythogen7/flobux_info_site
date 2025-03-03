@@ -17,9 +17,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (mailAreas.length > 0) {
 
-        if (isMobile) {
+        if (isMobile || true) {
 
-            document.body.addEventListener("touchstart", revealEmail, { passive: true });
+            document.body.addEventListener("touchstart", revealEmails, { passive: true });
 
             mailAreas.forEach(mailArea => {
                 const originalEmail = mailArea.href.replace(/v/g, '').replace('mailto:', '');
