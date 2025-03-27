@@ -1,10 +1,29 @@
+body {
+    text-align: center !important;
+}
+
 @font-face {
-    font-family: 'CustomIcons'; /* Choose any name */
-    src: url('assets/custom_icons.ttf') format('truetype'); 
+    font-family: "CustomIcons"; /* Choose any name */
+    src: url("assets/custom_icons.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
+.golden {
+    color: #eac500;
+}
+
+
+.header-card {
+    max-width: 900px;
+    margin: 12px auto !important;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center !important;
+}
 
 .phone {
     width: 300px;
@@ -13,11 +32,12 @@
 
 .phone-container {
     position: relative;
+    z-index: 1;
     display: inline-block;
     transform: translateY(29px);
 }
 
-.download-buttons {
+.phone-download-buttons {
     position: absolute;
     top: 50%; /* Adjust to position correctly */
     left: 50%;
@@ -28,12 +48,12 @@
     gap: 4px; /* Space between buttons */
 }
 
-.download-buttons a {
+.phone-download-buttons a {
     display: block;
     width: 179px; /* Adjust button width */
 }
 
-.download-buttons img {
+.phone-download-buttons img {
     width: 100%;
     height: auto;
 }
@@ -58,25 +78,22 @@
     justify-content: left;
     margin-top: 7px;
     margin-left: 10px;
-    
 }
 
 .web-app-text {
-    
     text-align: left;
 }
 
 .web-app-top-text {
     color: white;
 
-    margin: 0px;
+    margin: 0;
     font-size: 11px;
-    
 }
 
 .web-app-bottom-text {
     color: white;
-    margin: 0px;
+    margin: 0;
     font-size: 23px;
 }
 
@@ -95,43 +112,39 @@
     font-size: 8rem !important;
 }
 
+.pricing-table {
+    padding: 30px;
+}
 
-       
-        .pricing-table {
-            padding: 30px;
-        }
+.pricing-table.visible {
+    animation: pulse 1s forwards;
+}
 
+.pricing-table th,
+.pricing-table td {
+    padding: 10px;
+    font-size: 24px;
+}
 
-        .pricing-table th, .pricing-table td {
-            padding: 10px;
-            font-size: 24px;
-        }
+.right-col {
+    text-align: right;
+}
+.free {
+    color: #00dc77;
+    font-weight: bold;
+}
+.small-fee {
+    color: #123f38;
+    font-weight: bold;
+}
 
-
-
-        
-        .right-col {
-            text-align: right;
-        }
-        .free {
-            color: #00dc77;
-            font-weight: bold;
-        }
-        .small-fee {
-            color: #123f38;
-            font-weight: bold;
-        }
-
-        /* Trademark Info */
-
-
-
+/* Trademark Info */
 
 .money-icon::before {
     height: 128px;
     font-style: normal;
-    font-family: 'CustomIcons', sans-serif; 
-    content: "\e800"
+    font-family: "CustomIcons", sans-serif;
+    content: "\e800";
 }
 
 .tedious {
