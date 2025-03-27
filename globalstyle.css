@@ -33,9 +33,7 @@ body {
   gap: 35px;
 }
 
-.header {
-  animation: slideFadeIn 1s forwards;
-}
+
 
 .nav a {
   color: var(--nav-text-color); /* Dark grey color */
@@ -93,9 +91,7 @@ body {
   border-bottom: none;
 }
 
-nav.visible {
-  animation: slideFadeIn 2s forwards;
-}
+
 
 
 .left-text {
