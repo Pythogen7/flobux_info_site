@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [ "delegate_permission/common.handle_all_urls" ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.pythogen.flobux",
+      "sha256_cert_fingerprints": [
+        "73:4b:64:0b:90:a6:56:a1:cb:8f:70:4e:98:c2:5f:cc:86:c3:75:69:78:68:e5:1c:76:95:67:9c:17:78:79:73",
+        "54:51:f3:bc:9e:52:8d:5a:9d:63:3f:ce:82:3d:ad:df:c6:65:63:38:ab:30:ab:64:24:22:2d:f7:89:27:95:bd",
+        "d2:89:78:0b:26:c6:ac:a1:1a:49:43:77:fa:f3:09:43:e7:74:02:51:61:96:48:84:03:cb:51:ae:e8:9a:e5:46"
+      ]
+    }
+  }
+]

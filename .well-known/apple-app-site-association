@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [ "BSVKD7XXSQ.com.pythogen.flobux" ],
+        "components": [
+          { "/": "/auth/*" }
+        ]
+      }
+    ]
+  }
+}
