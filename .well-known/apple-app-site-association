@@ -4,6 +4,7 @@
       {
         "appIDs": [ "BSVKD7XXSQ.com.pythogen.flobux" ],
         "components": [
+          { "/": "/auth" },
           { "/": "/auth/*" }
         ]
       }
